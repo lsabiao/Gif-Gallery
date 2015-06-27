@@ -13,7 +13,7 @@ This script creates a .gif gallery using the images in the same folder of the sc
 
 
 '''
-import sys,os
+import sys,os,webbrowser
 #get the script folder
 pre_files = str(sys.argv[0]).split('\\')
 path= ''
@@ -56,4 +56,4 @@ f.flush()
 #closes the html
 f.close()
 #open your html
-os.system("start " +str(path)+ "index.html") #windows only
+webbrowser.open_new("file://"+os.path.dirname(os.path.abspath(__file__))+"/index.html")
