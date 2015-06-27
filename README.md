@@ -11,4 +11,4 @@ A tool for making a gif gallery using HTML.
     
     
     
-####Working in Windows only (for now)
+![wtfpl](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
